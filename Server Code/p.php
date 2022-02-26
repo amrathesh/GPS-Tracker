@@ -45,8 +45,7 @@ if (!$conn) {
 echo "Connected successfully <br>";
 
 // Below code will work only if there is database created with required table with elements
-// Refer README for sample structure
-
+// Refer .sql file
 $query = sprintf("SELECT EXISTS(SELECT * FROM details WHERE id=%s)",$deviceId);
 echo "SQL> " . $query . "<br>";
 $result = mysqli_fetch_array(mysqli_query($conn,$query))[0];
