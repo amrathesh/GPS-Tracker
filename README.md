@@ -1,6 +1,3 @@
-
-![License](https://img.shields.io/github/license/amrathesh/GPS-Tracker)
-
 ## GPS Tracker
 GPS Tracker using Neo 6M GPS sensor and GSM module.
 
